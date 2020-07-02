@@ -1,0 +1,69 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 5px;
+    padding-bottom: 8px;
+}
+
+.main{
+    height: 258px;
+    padding: 30px 28px;
+}
+
+.main ::before{
+    content: "";
+    height: 400px;
+    }
+
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main p{
+    font-weight: 900;
+    font-size: 0.9rem;
+    text-align: center;
+    
+}
+
+.box-making{
+    flex-direction: column;
+}
+
+.box-making .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+.box{
+    flex-wrap: wrap;
+}
+
+#about p{
+    font-size: 0.8rem;
+    padding: 10px ;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#contact-box form{
+    width:80%;
+}
+
+.btn{
+    margin-left: 0rem;
+}
+
+.end{
+    font-size: 0.79rem;
+}
+
+
