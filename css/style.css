@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px ;
+    left: 0px;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+
+
+
+.logo img{
+    height: 65px;
+    width: 170px;
+    margin: 0px 10px;
+}
+
+
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    margin-top: 0px;
+    font-size: 1.3rem;
+    
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 0px 25px;
+    text-decoration: none;
+    color:white;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.3rem;
+}
+
+
+#navbar ul li a:hover {
+    color:black;
+    cursor: pointer; 
+    background-color: white;
+    border-radius: 20px;
+    }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    padding: 3px 200px;
+}
+
+.main ::before{
+    content: "";
+    background: url('../images/bow1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px ;
+    left: 0px;
+    opacity: 0.4;
+    width: 100%;
+    height: 640px;
+    z-index: -1;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main p{
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.box-making{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 23px;
+    padding: 23px;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(230, 219, 219);
+    cursor: pointer;
+}
+
+.box img{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box:hover{
+    background-color: rgba(248, 246, 246, 0.541);
+    color:black;
+}
+
+#about{
+    
+}
+
+
+
+#about .heading{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#about p{
+    margin: 10px;
+    padding: 20px 70px;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    background-color:rgb(239, 239, 245);
+    justify-content: center;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 30px;
+    background-color: rgb(243, 237, 237);
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 2.8rem;
+
+}
+
+.btn{
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+#contact input:hover{
+    background-color: rgb(245, 238, 238);
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+.end{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 20px;
+    border: 2px solid black;
+    border-radius: 150px;
+    cursor: pointer;
+   }
